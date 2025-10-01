@@ -1,8 +1,11 @@
 // auth-service.js
 
 function loginUser(email, password) {
-  console.log("Autenticación con OAuth2 activada");
-  // Código nuevo de Amparito
+  if (!email || !password) {
+    console.error("Error: faltan credenciales");
+    return;
+  }
+  console.log("Login exitoso");
 }
 
 
