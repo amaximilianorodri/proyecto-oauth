@@ -1,12 +1,9 @@
 // auth-service.js
 
-function iniciarSesionConOAuth2(token) {
-  if (!token) {
-    throw new Error("Token inválido o ausente");
-  }
-  console.log("Autenticación exitosa con OAuth2 🎉");
-  return true;
+function loginUser(email, password) {
+  console.log("Autenticación con OAuth2 activada");
+  // Código nuevo de Amparito
 }
 
+
 iniciarSesionConOAuth2("token_de_prueba");
-"// auth-service.js" 
